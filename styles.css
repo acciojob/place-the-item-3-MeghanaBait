@@ -1,8 +1,32 @@
 
 /* Your CSS Code here. */
-
-#holder{
+*{
+	margin:0;
+	padding:0;
+}
+.holder{
 	display:flex;
 	justify-content:space-evenly;
 	flex-wrap:wrap;
+}
+
+.holder>div{
+	width:100px;
+	height:100px;
+	
+}
+
+.holder>div>h1{
+	font-size:50px;
+}
+.red{
+	background:red;
+}
+
+.blue{
+	background:blue;
+}
+
+.green{
+	background:green;
 }
